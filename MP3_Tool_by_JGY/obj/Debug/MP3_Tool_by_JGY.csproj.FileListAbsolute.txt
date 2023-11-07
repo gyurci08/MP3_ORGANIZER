@@ -1,0 +1,15 @@
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\bin\Debug\MP3_Tool_by_JGY.exe.config
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\bin\Debug\MP3_Tool_by_JGY.exe
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\bin\Debug\MP3_Tool_by_JGY.pdb
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.csproj.AssemblyReference.cache
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.Properties.Resources.resources
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.csproj.GenerateResource.cache
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.csproj.CoreCompileInputs.cache
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.exe
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.pdb
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.MP3_Tool_by_JGY.resources
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\bin\Debug\Id3.Net.dll
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\bin\Debug\JetBrains.Annotations.dll
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\bin\Debug\Id3.Net.xml
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\bin\Debug\JetBrains.Annotations.xml
+C:\Users\Jandzsó György\Documents\Developement\MP3_Tool_by_JGY\MP3_Tool_by_JGY\obj\Debug\MP3_Tool_by_JGY.csproj.CopyComplete
