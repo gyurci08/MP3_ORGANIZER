@@ -1,41 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Diagnostics;
 using System.IO;
-using System.Windows.Forms;
 
 namespace Services
 {
     internal class IO_handler
     {
 
-
-
-
-        // Input
-        public List<string> loadFiles(string pathOfInputFiles)
+        public List<string> GetFileNamesInPath(string path)
         {
-            List<string> fileNames = Directory.EnumerateFiles(pathOfInputFiles).Select(x => x.Substring(pathOfInputFiles.Length)).ToList();
+            List<string> fileNames = new List<string>();
 
-
-            for (int i = 0;i<fileNames.Count;i++)
+            foreach (var fileitem in Directory.GetFiles(path)){
+                if (Path.GetExtension(fileitem) == ".mp3" )
                 {
-                    if (!fileNames.ElementAt(i).Contains(".mp3")) { fileNames.RemoveAt(i); }
+                    fileNames.Add(fileitem);
                 }
-
-            
+            }
             return fileNames;
         }
 
-
-        public DateTime checkLastFileModification(string pathOfInputFiles, string fileName)
+        public DateTime checkLastFileModification(string pathOfInputFiles, string fileName) // I'm not sure what this is for but you are probably looking for FileSystemWatcher ?
         {
-            DateTime lastModified = System.IO.File.GetLastWriteTime(String.Format("{0}\\{1}", pathOfInputFiles, fileName));
-
+            DateTime lastModified = File.GetLastWriteTime(String.Format($"{pathOfInputFiles}\\{fileName}"));
             return lastModified;
         }
 

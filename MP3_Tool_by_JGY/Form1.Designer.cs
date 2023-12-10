@@ -97,7 +97,7 @@
             this.generate_bt.Name = "generate_bt";
             this.generate_bt.Size = new System.Drawing.Size(117, 37);
             this.generate_bt.TabIndex = 6;
-            this.generate_bt.Text = "Generate";
+            this.generate_bt.Text = "Manual move";
             this.generate_bt.UseVisualStyleBackColor = true;
             this.generate_bt.Click += new System.EventHandler(this.generate_bt_Click);
             // 
