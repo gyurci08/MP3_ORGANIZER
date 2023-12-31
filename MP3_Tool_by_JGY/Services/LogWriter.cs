@@ -12,39 +12,19 @@ namespace Services
 
         public void checkFolder(string path)
         {
-            bool exists = System.IO.Directory.Exists(path);
-
-            if (!exists)
-                System.IO.Directory.CreateDirectory(path);
+            if (!Directory.Exists(path)) Directory.CreateDirectory(path);
         }
 
-
-
-        public void createLogFile(String path)
+        public void createLogFile(string path)
         {
-            using (File.Create(path));
+            File.Create(path);
         }
 
-
-
-        public async void Write(String line, String path)
+        public async Task Write(string line, string path)
         {
-            
-
-
             using (StreamWriter w = File.AppendText(path))
             {
-                w.Flush();
-
-              
-                    w.WriteLine(line);
-
-            
-
-
-
-
-                w.Close();
+                await w.WriteLineAsync(line); // no need to close and etc when async
             }
         }
     }
